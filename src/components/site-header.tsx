@@ -1,4 +1,5 @@
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import { Button } from "@/components/ui/button";
 
 export function SiteHeader() {
   return (
@@ -8,7 +9,9 @@ export function SiteHeader() {
           <UserButton />
         </SignedIn>
         <SignedOut>
-          <SignInButton>Sign in</SignInButton>
+          <SignInButton>
+            <Button>Login</Button>
+          </SignInButton>
         </SignedOut>
       </div>
     </header>

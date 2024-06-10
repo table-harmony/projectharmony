@@ -28,12 +28,6 @@ export function SiteFooter() {
               >
                 Contact
               </Link>
-              <Link
-                href="/changelog"
-                className="text-xs text-muted-foreground duration-200 hover:text-foreground"
-              >
-                Change log
-              </Link>
             </div>
             <div className="mt-4 flex flex-col space-y-4">
               <h3 className="font-semibold">Legal</h3>
